@@ -112,9 +112,9 @@ workflows:
           requires:
             - test-css
             - build
-    #   - compose-gmod:
-    #       requires:
-    #         - slow-tests
+      - compose-gmod:
+          requires:
+            - slow-tests
 
 
             #filters:
