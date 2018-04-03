@@ -115,6 +115,7 @@ workflows:
       - compose-gmod:
           requires:
             - slow-tests
+            - build
 
 
             #filters:
